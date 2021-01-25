@@ -1,0 +1,1 @@
+{"version":3,"sources":["./styles.scss"],"names":[],"mappings":"AAAA;AACA;EACE;AACF;AAEA;EACE;AACF,C","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\nhtml {\n  font-size: 62.5%\n}\n\nbody {\n  font-size: 1.6rem;\n}\n"],"sourceRoot":"webpack:///"}
