@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Dvd } from './dvd/dvd.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dvd-collection-angular';
+  db: Dvd[] = [] as Dvd[];
 }

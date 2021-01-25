@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>Title</th>
+    <th>Release Date</th>
+    <th>Rating</th>
+    <th>Cost</th>
+    <th>Director</th>
+    <th>Genre</th>
+  </thead>
+  <tr app-list-item *ngFor="let dvd of db" [dvd]="dvd"></tr>
+  <tr *ngIf="!db.length">
+    <td colspan="6" class="empty-table">The list is empty 😢</td>
+  </tr>
+</table>
